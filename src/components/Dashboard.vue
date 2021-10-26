@@ -62,7 +62,7 @@ export default {
             const data = await req.json()
 
 
-
+            this.status = data
             console.log(data)
         },
        async deleteBurger(id){
